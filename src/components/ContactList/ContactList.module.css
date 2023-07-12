@@ -1,0 +1,38 @@
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  li > button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f44336;
+    cursor: pointer;
+    transition-duration: 300ms;
+  }
+  
+  li > button:hover {
+    background-color: #d32f2f;
+  }
+  
